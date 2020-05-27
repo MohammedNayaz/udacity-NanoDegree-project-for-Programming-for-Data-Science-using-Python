@@ -161,12 +161,12 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('->'*50)
-
+#Display the raw data of first 5 rows
 def raw_data(df):
     count=0
     raw_data_view = input('To view the raw data enter yes or no:')
     raw_data_view.lower()
-
+#To display next 5 rows after each turn deleted old rows
     if raw_data_view == 'yes':
         print(df.head(5))
         df.drop(df.head(5).index,inplace=True)
