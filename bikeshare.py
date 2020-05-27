@@ -161,18 +161,8 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('->'*50)
-#Display the raw data of first 5 rows
-def raw_data(df):
-    count=0
-    raw_data_view = input('To view the raw data enter yes or no:')
-    raw_data_view.lower()
-#To display next 5 rows after each turn deleted old rows
-    if raw_data_view == 'yes':
-        print(df.head(5))
-        df.drop(df.head(5).index,inplace=True)
-        raw_data(df)
-    else:
-        print("Ok,Thank You!,visit again")
+
+
     
 
 def main():
@@ -184,7 +174,6 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
