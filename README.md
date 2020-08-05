@@ -1,7 +1,7 @@
 # Udacity NanoDegree project for Programming for Data Science using Python 
 ## Date created
   27/05/2020
-## Broject Title
+## Project Title
   USA Bikeshare
 ## Overview
 
