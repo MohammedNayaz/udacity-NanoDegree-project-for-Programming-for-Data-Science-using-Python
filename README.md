@@ -1,4 +1,4 @@
-# udacity NanoDegree project for Programming for Data Science using Python 
+# Udacity NanoDegree project for Programming for Data Science using Python 
 ## Date created
   27/05/2020
 ## project Title
@@ -43,4 +43,6 @@ This program was written in Python (version 3.7.1) and relies on the following l
 * pandas==0.23.4
 * numpy==1.15.4
 
+## Course Certificate Link
+https://confirm.udacity.com/UPK6GEPM
   
